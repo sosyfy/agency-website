@@ -1,0 +1,110 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  /* background: linear-gradient(165.96deg, rgba(73, 164, 248, 0.24) 10.8%, rgba(15, 209, 186, 0.0696) 67.77%); */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0rem 5rem;
+
+}
+
+.hero_left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero_left .hero_text {
+  align-items: flex-start;
+  text-align: start;
+}
+.hero_left .hero_text h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+  letter-spacing: -0.03em;
+}
+.hero_left .hero_text h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.4rem;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin: 0.6rem 0;
+  line-height: 3rem;
+}
+.hero_left .hero_text p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: -0.02em;
+  opacity: 0.6;
+  margin-bottom: 1.5rem;
+}
+.hero_left .hero_text a {
+  background: #05796b;
+  box-shadow: 0px 38px 40px rgba(5, 121, 107, 0.3);
+  border-radius: 80px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+.hero_stats {
+  display: flex;
+  margin-top: 2.6rem;
+  gap: 2rem;
+  align-items: center;
+}
+.stats {
+  padding: 1rem;
+}
+.hero_stats .stats h2 {
+  font-size: 1rem;
+  margin: 0.4rem 0;
+}
+.hero_stats .stats p {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  font-weight: 500;
+}
+
+.hero_right {
+  position: relative;
+  top: 0rem;
+  flex: 1;
+}
+.bg-gradient {
+  position: absolute;
+
+  background: linear-gradient(
+    165.96deg,
+    rgba(73, 164, 248, 0.24) 10.8%,
+    rgba(15, 209, 186, 0.0696) 67.77%
+  );
+  filter: blur(200px);
+  transform: rotate(15deg);
+  top: -8rem;
+  right: -10rem;
+  width: 35rem;
+  height: 35rem;
+}
+.hero-images {
+  z-index: 10;
+}
+.hero_right .main-img {
+  height: 570px;
+}
+.hero_right .balances-img {
+  position: absolute;
+  right: -5.4rem;
+  top: 13rem;
+  transform: scale(0.6);
+}

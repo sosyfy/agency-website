@@ -1,0 +1,45 @@
+header {
+    top: 0;
+    left: 0;
+    position: stickt;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+
+header .logo h2{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 3.6rem;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #000000;
+}
+
+header .buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.start-free {
+    background: #F57059;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-align: center;
+}
